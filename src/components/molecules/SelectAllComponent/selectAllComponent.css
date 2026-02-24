@@ -1,0 +1,7 @@
+.label-container {
+  display: flex;
+  gap: 5px;
+}
+.select-all-checkbox {
+  cursor: pointer;
+}
