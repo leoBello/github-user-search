@@ -1,0 +1,12 @@
+.loading-text,
+.error-text {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.status-message-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
