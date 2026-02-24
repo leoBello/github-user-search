@@ -1,0 +1,51 @@
+.user-page-template {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-height: 100vh;
+  min-width: 450px;
+  padding: 0 20px;
+}
+
+.user-card-list {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 16px;
+  padding-bottom: 16px;
+  overflow-y: scroll;
+  justify-items: center;
+  align-items: start;
+}
+
+/* mobile : 1 colonne */
+@media (max-width: 599px) {
+  .user-card-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* tablette : 2 colonnes */
+@media (min-width: 600px) and (max-width: 899px) {
+  .user-card-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* desktop : 4 colonnes max */
+@media (min-width: 900px) {
+  .user-card-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.empty-state {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}
+
