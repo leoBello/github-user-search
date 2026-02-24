@@ -4,13 +4,15 @@ Application React permettant de rechercher des utilisateurs GitHub via l'API Git
 
 ## 📋 Sommaire
 
-- [Algorithme FizzBuzz](#algorithme-fizzbuzz)
+- [Algorithme FizzBuzz](#fizzbuzz)
 - [Architecture du projet](#architecture-du-projet)
-- [Fonctionnalités](#fonctionnalités)
+- [Fonctionnalités](#fonctionnalites)
 - [Tests unitaires](#tests-unitaires)
 - [Commandes essentielles](#commandes-essentielles)
+- [Technologies utilisées](#technologies-utilisees)
+- [Notes](#notes)
 
-## 🧮 Algorithme FizzBuzz
+## 🧮 Algorithme FizzBuzz {#fizzbuzz}
 
 L’algorithme **FizzBuzz** est implémenté en TypeScript dans `src/algorithm` et suit une approche fonctionnelle, simple et extensible.
 
