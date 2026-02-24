@@ -1,0 +1,32 @@
+.selection-bar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 10px;
+}
+
+.switch-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.custom-button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.custom-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.hidden {
+  visibility: hidden;
+}
