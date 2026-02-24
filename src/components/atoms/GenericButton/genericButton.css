@@ -1,0 +1,40 @@
+.generic-button {
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  background-color: transparent;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actionbutton {
+  background-color: transparent;
+  padding: 0;
+}
+
+.viewprofile {
+  background-color: #00a1ff;
+}
+
+.generic-button:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.generic-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.generic-button:focus-visible {
+  outline: 2px solid #00a1ff;
+  outline-offset: 2px;
+}
