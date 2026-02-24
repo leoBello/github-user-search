@@ -24,7 +24,7 @@ L’algorithme **FizzBuzz** est implémenté en TypeScript dans `src/algorithm` 
 - Entrée strictement contrôlée : `N` doit être un entier positif (`>= 1`), sinon une erreur est levée.
 - Les tests unitaires associés couvrent les cas limites (0, valeurs négatives, décimales, grande valeur de N) ainsi que des règles personnalisées, afin de garantir un comportement fiable et maintenable.
 
-## 🏗️ Architecture du projet
+## 🏗️ Architecture du projet {#architecture-du-projet}
 
 Le projet suit une architecture basée sur le **Atomic Design Pattern** et une séparation claire des responsabilités.
 
