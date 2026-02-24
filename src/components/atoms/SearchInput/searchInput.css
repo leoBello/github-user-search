@@ -1,0 +1,17 @@
+.text-input-container {
+  padding: 15px 0;
+}
+
+.text-input {
+  padding: 10px 15px;
+  background-color: #d5d5d5;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.text-input::placeholder {
+  color: #000;
+  text-align: center;
+}
